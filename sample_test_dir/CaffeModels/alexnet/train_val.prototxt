@@ -12,7 +12,7 @@ layer {
   }
   data_param {
     source: "data/mnist224/mnist224_train_lmdb"
-    #caffe2mxnet num_examples: 40000
+    #CaffeToMXNet num_examples: 40000
     batch_size: 64
     backend: LMDB
   }
@@ -30,7 +30,7 @@ layer {
   }
   data_param {
     source: "data/mnist224/mnist224_val_lmdb"
-    #caffe2mxnet num_examples: 10000
+    #CaffeToMXNet num_examples: 10000
     batch_size: 64
     backend: LMDB
   }
